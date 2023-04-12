@@ -19,8 +19,8 @@ time.sleep(10)
 # Enter your Instagram credentials and log in
 username = driver.find_element(By.NAME ,'username')
 password = driver.find_element(By.NAME ,'password')
-username.send_keys('artem_zubik_')
-password.send_keys('artemida123345$761845932$')
+username.send_keys('your username')
+password.send_keys('your password')
 password.send_keys(Keys.RETURN)
 4
 # Wait for the page to load
